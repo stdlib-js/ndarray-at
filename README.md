@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@deno/mod.js';
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@v0.2.0-deno/mod.js';
 ```
 
 #### at( x\[, ...indices] )
@@ -139,7 +139,7 @@ import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartes
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@deno/mod.js';
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@v0.2.0-deno/mod.js';
 
 // Define a two-dimensional array:
 var shape = [ 5, 5 ];
