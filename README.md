@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-at/tags). For example,
+
+```javascript
 import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@v0.2.1-deno/mod.js';
 ```
 
@@ -139,7 +144,7 @@ import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartes
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@v0.2.1-deno/mod.js';
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@deno/mod.js';
 
 // Define a two-dimensional array:
 var shape = [ 5, 5 ];
