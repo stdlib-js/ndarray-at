@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-at/tags). For example,
+
+```javascript
 import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@v0.2.3-esm/index.mjs';
 ```
 
@@ -144,7 +149,7 @@ import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartes
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@v0.2.3-esm/index.mjs';
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@esm/index.mjs';
 
 // Define a two-dimensional array:
 var shape = [ 5, 5 ];
