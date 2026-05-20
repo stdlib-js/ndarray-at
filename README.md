@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-at
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var at = require( '@stdlib/ndarray-at' );
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@esm/index.mjs';
 ```
 
 #### at( x\[, ...indices] )
@@ -78,7 +60,7 @@ var at = require( '@stdlib/ndarray-at' );
 Returns an [`ndarray`][@stdlib/ndarray/ctor] element.
 
 ```javascript
-var array = require( '@stdlib/ndarray-array' );
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 // returns <ndarray>
@@ -114,7 +96,7 @@ The function accepts the following arguments:
 -   If provided out-of-bounds indices, the function always returns `undefined`.
 
     ```javascript
-    var array = require( '@stdlib/ndarray-array' );
+    import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 
     var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
     // returns <ndarray>
@@ -126,7 +108,7 @@ The function accepts the following arguments:
 -   Negative indices are resolved relative to the last element along the respective dimension, with the last element corresponding to `-1`.
 
     ```javascript
-    var array = require( '@stdlib/ndarray-array' );
+    import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 
     var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
     // returns <ndarray>
@@ -152,12 +134,17 @@ The function accepts the following arguments:
 
 <!-- eslint-disable new-cap -->
 
-```javascript
-var cartesianProduct = require( '@stdlib/array-cartesian-product' );
-var zeroTo = require( '@stdlib/array-zero-to' );
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var array = require( '@stdlib/ndarray-array' );
-var at = require( '@stdlib/ndarray-at' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@esm/index.mjs';
+import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+import at from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-at@esm/index.mjs';
 
 // Define a two-dimensional array:
 var shape = [ 5, 5 ];
@@ -179,6 +166,10 @@ for ( i = 0; i < x.length; i++ ) {
     idx = indices[ i ];
     console.log( 'x[%d,%d] = %d', idx[ 0 ], idx[ 1 ], at( x, idx[ 0 ], idx[ 1 ] ) );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -217,7 +208,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -280,13 +271,13 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-at/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array/tree/esm
 
-[@stdlib/ndarray/slice]: https://github.com/stdlib-js/ndarray-slice
+[@stdlib/ndarray/slice]: https://github.com/stdlib-js/ndarray-slice/tree/esm
 
 <!-- </related-links> -->
 
