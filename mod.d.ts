@@ -18,7 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 import { realndarray, genericndarray, typedndarray, complex128ndarray, complex64ndarray } from '@stdlib/types/ndarray';
 import { Complex128, Complex64 } from '@stdlib/types/complex';
