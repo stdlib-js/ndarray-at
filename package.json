@@ -37,12 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-join": "^0.1.2",
     "@stdlib/assert-is-integer": "^0.2.3",
     "@stdlib/assert-is-ndarray-like": "^0.2.3",
     "@stdlib/ndarray-base-normalize-index": "^0.2.3",
     "@stdlib/ndarray-shape": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
-    "@stdlib/types": "^0.4.3",
+    "@stdlib/types": "^0.5.1",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {

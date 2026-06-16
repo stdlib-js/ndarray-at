@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-16)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`aedcf13`](https://github.com/stdlib-js/stdlib/commit/aedcf1310cfe8c323ca03bf52d5f27021f5b8927) - wrap `RangeError` messages with `format` [(#12912)](https://github.com/stdlib-js/stdlib/pull/12912)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`aedcf13`](https://github.com/stdlib-js/stdlib/commit/aedcf1310cfe8c323ca03bf52d5f27021f5b8927) - **fix:** wrap `RangeError` messages with `format` [(#12912)](https://github.com/stdlib-js/stdlib/pull/12912) _(by Philipp Burckhardt, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
